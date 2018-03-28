@@ -48,11 +48,9 @@ def get_trnd_topics(twp_url = 'http://www.tweeplers.com/hashtags/?cc=US', n_top 
 
 # Run Function & Look at Output
 ##############################################################################
-
-trnd = get_trnd_topics('http://www.tweeplers.com/hashtags/?cc=US', 7)
-    
 """
-Function Returns Pandas Dataframe:
+trnd = get_trnd_topics('http://www.tweeplers.com/hashtags/?cc=US', 7)
+# Function Returns Pandas Dataframe:
 
 
             trend_ht             trend_ts
@@ -65,26 +63,3 @@ Function Returns Pandas Dataframe:
 6               #nyc  2018-03-24 16:24:02
 
 """
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
