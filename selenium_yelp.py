@@ -145,8 +145,3 @@ def gen_loc_type_agg(city, state_abbr, food_type):
     output_data['avg_rating'] = avg_rtg_list
         
     return output_data
-
-
-lcla_sushi = gen_loc_type_agg('Lake Charles', 'LA', 'Sushi')
-        
-
