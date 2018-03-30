@@ -36,4 +36,13 @@ tricky_speech = ['The book was good, but the protagonists are uncompelling and t
 try_function = gen_polarity(tricky_speech)
 try_function
 
+Output:
+    
+   compound    neg    neu    pos
+    -0.7042  0.327  0.579  0.094
+    -0.6602  0.294  0.706  0.000
+    -0.1546  0.119  0.792  0.089
+     0.3875  0.000  0.774  0.226
+     0.6124  0.000  0.500  0.500
+
 """
