@@ -2,7 +2,7 @@
 #####################################################################
 import vaderSentiment
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer # Must be installed with pip - no conda install that I could find
-from vaderSentiment import sentiment as vaderSentiment 
+#from vaderSentiment import sentiment as vaderSentiment 
 import numpy as np, pandas as pd
 
 # Define Function
